@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 
+/* Inittiazing a string and writing to stdout*/
 int main(void)
 {
-  /*Initializing strings */
-  char str[]= "\"Programming is like building a multilingual puzzle";
+  /*Initializing string */
+char str[] = "\"Programming is like building a multilingual puzzle";
 
   /* Writing to stdout */
-  puts(str);  
+puts(str);  
 
-  return (0);
+return (0);
 }
