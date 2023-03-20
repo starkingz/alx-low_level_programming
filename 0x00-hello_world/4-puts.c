@@ -1,14 +1,18 @@
 #include <stdio.h>
 #include <string.h>
 
-/* Inittiazing a string and writing to stdout*/
+/**
+ * main - The codes entry point
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-  /*Initializing string */
+/*Initializing string */
 char str[] = "\"Programming is like building a multilingual puzzle";
 
-  /* Writing to stdout */
-puts(str);  
+/*Writes to stdout */
+puts(str);
 
 return (0);
 }
