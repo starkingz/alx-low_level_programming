@@ -1,3 +1,3 @@
 ## Alx_low_level_programming
-A c programming projects #cisfun
+A c programming project #cisfun
 
