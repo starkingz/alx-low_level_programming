@@ -14,7 +14,7 @@ int main(void)
 
 	/* Prints the alphabet in lowercase, and then in uppercase */
 	for (lowercase_alpha = 'a'; lowercase_alpha <= 'z'; lowercase_alpha++)
-		putchar(lowercase_alpha;
+		putchar(lowercase_alpha);
 
 	for (uppercase_alpha = 'A'; uppercase_alpha <= 'Z'; uppercase_alpha++)
 		putchar(uppercase_alpha);
