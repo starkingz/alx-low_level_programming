@@ -17,5 +17,5 @@ if (b > 0)
 return (a * _pow_recursion(a, b - 1));
 
 }
-return (0);
+return (1);
 }
