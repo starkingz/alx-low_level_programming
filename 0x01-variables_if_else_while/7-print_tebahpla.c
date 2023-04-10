@@ -15,7 +15,7 @@ int main(void)
 	{
 		putchar(rev_alpha--);
 	}
-	putchar('\n'); /* end of line */\
+	putchar('\n'); /* end of line */
 
 	return (0);
 }
