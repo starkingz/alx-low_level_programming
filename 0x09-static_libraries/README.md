@@ -1,1 +1,1 @@
-## 0x09-static_libraries
+Root directory for static libraries
