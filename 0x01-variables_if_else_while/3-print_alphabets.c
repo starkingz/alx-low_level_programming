@@ -22,5 +22,6 @@ int main(void)
 		putchar(upper);
 			upper++;
 	}
+	putchar('\n'); /* end of line */
 	return (0);
 }
