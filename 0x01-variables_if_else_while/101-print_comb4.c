@@ -9,11 +9,15 @@
 
 int main(void)
 {
-	for (int n = '0'; n <= '9'; n++)
+	int n;
+	int n2;
+	int n3;
+
+	for (n = '0'; n <= '9'; n++)
 	{
-		for (int n2 = '0'; n2 <= '9'; n2++)
+		for (n2 = '0'; n2 <= '9'; n2++)
 		{
-			for (int n3 = '0'; n3 <= '9'; n3++)
+			for (n3 = '0'; n3 <= '9'; n3++)
 			{
 				if (!((n == n2) || (n2 == n3) || (n > n2)
 				      || (n2 > n3)))
@@ -22,9 +26,8 @@ int main(void)
 					putchar(n2);
 					putchar(n3);
 					if
-						((n < '7')
-					    && (n <= '8')
-					    && (n <= '9')))
+						(((n < '7') && (n <= '8')
+					     && (n <= '9')))
 						{
 							putchar(',');
 							putchar(' ');
