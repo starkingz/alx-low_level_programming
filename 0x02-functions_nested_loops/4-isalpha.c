@@ -16,7 +16,7 @@ int _isalpha(int c)
 	{
 		for (upper_alpha = 'A'; upper_alpha <= 'A'; upper_alpha++)
 		{
-			if (((c >= lower_alpha)|| (c >= upper_alpha)))
+			if (((c >= lower_alpha) || (c >= upper_alpha)))
 		{
 			return (1);
 		}
