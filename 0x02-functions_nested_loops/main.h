@@ -13,3 +13,10 @@ int _putchar(char c);
  * Return: 0 Always
  */
 void print_alphabet(void);
+
+/**
+ * print_alphabet_x10 - prints alphabet 10 times
+ *
+ * Return: 0 Always success
+ */
+void print_alphabet_x10(void);
