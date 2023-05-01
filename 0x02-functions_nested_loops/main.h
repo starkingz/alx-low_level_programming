@@ -20,3 +20,10 @@ void print_alphabet(void);
  * Return: 0 Always success
  */
 void print_alphabet_x10(void);
+
+/**
+ * is_lower - checks for lowercase character
+ *
+ * Return: 1 if lowercase  otherwise  0
+ */
+int _islower(int c);
