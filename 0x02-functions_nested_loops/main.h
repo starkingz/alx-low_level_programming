@@ -36,3 +36,11 @@ int _islower(int c);
  * ... else print 0
  */
 int _isalpha(int c);
+
+/**
+ * print_sign - prints the sign of a number
+ * @c: character of the number
+ *
+ * Return: 0
+ */
+int print_sign(int n);
