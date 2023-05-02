@@ -44,3 +44,12 @@ int _isalpha(int c);
  * Return: 0
  */
 int print_sign(int n);
+
+/**
+ * _abs - computes the absolute value of ...
+ * ... an integer
+ * @i: character of the absolute value
+ *
+ * Return: 0
+ */
+int _abs(int);
