@@ -53,3 +53,10 @@ int print_sign(int n);
  * Return: 0
  */
 int _abs(int);
+
+/**
+ * print_last_digit - prints the last digit of a number
+ *
+ * Return: 0
+ */
+int print_last_digit(int);
