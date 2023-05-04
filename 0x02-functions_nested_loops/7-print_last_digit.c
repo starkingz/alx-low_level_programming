@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * print_last_digit - prints the last digit ..
@@ -13,7 +14,7 @@ int print_last_digit(int n)
 	n = n % 10;
 
 	/* if n less than 0 declare the absolute value */
-	n = _abs(n) % 10;
+	n = abs(n) % 10;
 
 	/* Output the absolute value of n */
 	_putchar('0' + n);
