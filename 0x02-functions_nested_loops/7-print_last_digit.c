@@ -10,18 +10,12 @@
 
 int print_last_digit(int n)
 {
-	int last_digit = 0;
+	n = n % 10;
 
-	if (n < 0)
-	{
-		last_digit = -n % 10;
-		_putchar('0' + last_digit);
-		return (last_digit);
-	}
-	else
-	{
-		last_digit = n % 10;
-		_putchar('0' + last_digit);
-		return (last_digit);
-	}
+	/* if n less than 0 declare the absolute value */
+	n = _abs(n) % 10;
+
+	/* Output the absolute value of n */
+	_putchar('0' + n);
+	return (n);
 }
