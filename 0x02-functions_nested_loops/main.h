@@ -60,3 +60,10 @@ int _abs(int);
  * Return: 0
  */
 int print_last_digit(int);
+
+/**
+ * jack_bauer - prints every minute of the day
+ *
+ * Return: 0
+ */
+void jack_bauer(void);
