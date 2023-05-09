@@ -11,7 +11,7 @@
 int add(int x, int y)
 {
 	int sum = 0;
-	sum = x + y;
 
-	return(sum); /* return result */
+	sum = x + y;
+	return (sum); /* return result */
 }
