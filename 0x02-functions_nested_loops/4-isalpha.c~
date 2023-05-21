@@ -1,0 +1,26 @@
+#include "main.h"
+
+/**
+ * _isalpha - checks alphabet
+ * @c: charaacter to check
+ *
+ * Return: always 0
+ */
+
+int _isalpha(int c)
+{
+	int alpha = 32;
+
+	for (alpha = 32; alpha <= 127; alpha++)
+	{
+		if (c >= alpha)
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
+	}
+	return (0);
+}

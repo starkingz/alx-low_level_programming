@@ -1,3 +1,0 @@
-## 0x03-debugging
-
-[0-main.c](0-main.c] : In ost projects, we often give you pnly one main file to test with, for example, this main file is a test for a `positive_or_negative()` function similar to the one you worked with in `an earlier C project:`.
