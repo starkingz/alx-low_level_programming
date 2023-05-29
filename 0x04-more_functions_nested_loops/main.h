@@ -40,3 +40,10 @@ int mul(int a, int b);
  * Return: 0
  */
 void print_numbers(void);
+
+/**
+ * print_most_numbers - prints the numbers from 0 to 9 making ..
+ * ... 2 and 4 an exception
+ *
+ */
+void print_most_numbers(void);
