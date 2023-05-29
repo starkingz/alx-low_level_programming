@@ -7,3 +7,11 @@
  * Return: 1 or 0
  */
 int _isupper(int c);
+
+/**
+ * _isdigit - function that checks for a digit (0 through 9)
+ *@c: Input
+ *
+ * Return: 1 or 0
+ */
+int _isdigit(int c);
