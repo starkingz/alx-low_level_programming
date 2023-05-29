@@ -15,3 +15,12 @@ int _isupper(int c);
  * Return: 1 or 0
  */
 int _isdigit(int c);
+
+/**
+ * mul - multiplies two integers
+ * @a: first input
+ * @b: second input
+ *
+ * Return: result
+ */
+int mul(int a, int b);
