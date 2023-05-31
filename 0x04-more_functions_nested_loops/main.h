@@ -59,3 +59,10 @@ void more_numbers(void);
  *
  */
 void print_line(int n);
+
+/**
+ * print_diagonal - draws a diaginal line on the terminal
+ * @n: input to be drawn
+ *
+ */
+void print_diagonal(int n);
