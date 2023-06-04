@@ -72,3 +72,9 @@ void print_diagonal(int n);
  *
  */
 void print_square(int size);
+
+/**
+ * print_triangle - prints a triangle with '#' character
+ *
+ */
+void print_triangle(int size);
