@@ -9,4 +9,17 @@
  */
 int _putchar(char c);
 
+/**
+ * reset_to_98 - resets the value to 98
+ *@n: input
+ *
+ */
 void reset_to_98(int *n);
+
+/**
+ * swap_int - swaps the values of two integers
+ * @a: first parameter
+ * #b: second parameter
+ *
+ */
+void swap_int(int *a, int *b);
