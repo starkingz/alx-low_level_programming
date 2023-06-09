@@ -1,5 +1,4 @@
 #include <unistd.h>
-
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
@@ -31,3 +30,10 @@ void swap_int(int *a, int *b);
  * Return: number of characters not counting the string
  */
 int _strlen(char *s);
+
+/**
+ * _puts - prints a string to stdout followed by a newline
+ * @str: character to print
+ *
+ */
+void _puts(char *str);
