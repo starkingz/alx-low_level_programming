@@ -23,3 +23,11 @@ void reset_to_98(int *n);
  *
  */
 void swap_int(int *a, int *b);
+
+/**
+ * _strlen - returns the length of a string
+ * @s: return parameter
+ *
+ * Return: number of characters not counting the string
+ */
+int _strlen(char *s);
