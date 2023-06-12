@@ -10,7 +10,7 @@ int _putchar(char c);
 
 /**
  * reset_to_98 - resets the value to 98
- *@n: input
+ * @n: input
  *
  */
 void reset_to_98(int *n);
@@ -51,3 +51,11 @@ void print_rev(char *str);
  *
  */
 void rev_string(char *s);
+
+/**
+ * puts2 - prints every other character of a string,..
+ * ...starting with the first character
+ * @s: input
+ *
+ */
+void puts2(char *s);
