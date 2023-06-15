@@ -1,0 +1,7 @@
+#include "main.h"
+
+/**
+ * _puts - prints strings to stdout followed by a newline
+ * @str: character to print
+ *
+ */

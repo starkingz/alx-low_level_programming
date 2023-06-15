@@ -59,3 +59,10 @@ void rev_string(char *s);
  *
  */
 void puts2(char *s);
+
+/**
+ * puts_half - prints the second half of the character
+ * @str: input
+ *
+ */
+void puts_half(char *str);
