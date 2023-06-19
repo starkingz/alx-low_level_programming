@@ -13,7 +13,7 @@
 
 char *_strcpy(char *dest, char *src)
 {
-        unsigned long i = 0; /* size_t (a.k.a unsigned long int) */
+	unsigned long i = 0; /* size_t (a.k.a unsigned long int) */
 
 	for (i = 0; i <= strlen(src); i++)
 	{
