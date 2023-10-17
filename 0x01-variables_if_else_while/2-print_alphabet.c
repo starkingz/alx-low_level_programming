@@ -1,21 +1,22 @@
+/* header directive */
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - entry point
- * Description: Prints alphabets in lowercase
- * Return: Always 0 (success)
+ * main - print lowercase alphabets
+ *
+ * Return: always 0 (success)
  */
-
-int main(void)
+int main(void) /* main function definiton */
 {
-	char alpha = 'a'; /* stores single character object */
+	char islower = 'a'; /* initializer */
 
-	while (alpha < 'z')
+	while (islower <= 'z') /* condition */
 	{
-		putchar(alpha);
-		alpha++;
+		putchar(islower); /* output */
+		++islower; /* increment */
 	}
-	putchar('\n'); /* end of line */
-		return (0);
+	putchar('\n'); /* endline */
+
+	return (0); /* return (success) */
 }
