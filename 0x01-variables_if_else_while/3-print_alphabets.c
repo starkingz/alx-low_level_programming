@@ -1,27 +1,25 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
- * main - entry point
- * Description - Prints lowercase and uppercase alphabet
- * Return: Always 0 (success)
+ * main - output lower and upper case alphabet together
+ *
+ * Return: always 0 (success)
  */
-
 int main(void)
 {
-	char lower = 'a';
-	char upper = 'A';
+	char islower = 'a';
+	char isupper = 'A';
 
-	while (lower <= 'z')
+	while (islower <= 'z')
 	{
-		putchar(lower);
-		lower++;
+		putchar(islower);
+		++islower;
 	}
-	while (upper <= 'Z')
+	while (isupper <= 'Z')
 	{
-		putchar(upper);
-			upper++;
+		putchar(isupper);
+		++isupper;
 	}
-	putchar('\n'); /* end of line */
+	putchar('\n');
+
 	return (0);
 }
