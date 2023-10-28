@@ -17,7 +17,7 @@ int _isalpha(int c)
 		if (c == upper)
 			return (1);
 	}
-	for (lower = 97; lower <= 112; ++lower)
+	for (lower = 97; lower <= 122; ++lower)
 	{
 		if (c == lower)
 			return (1);
