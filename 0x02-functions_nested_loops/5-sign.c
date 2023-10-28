@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_sign = prints the sign of a number
+ * print_sign - prints the sign of a number
  * @n: input
  *
+ * Return: always 0 (success)
  */
 int print_sign(int n)
 {
