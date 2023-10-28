@@ -11,7 +11,7 @@ int _islower(int c)
 {
 	int lower;
 
-	for (lower = 97; lower <= 112; ++lower)
+	for (lower = 97; lower <= 122; ++lower)
 	{
 		if (c == lower)
 			return (1);
