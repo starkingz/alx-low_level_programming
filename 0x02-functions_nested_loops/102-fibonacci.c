@@ -8,15 +8,15 @@
  */
 int main(void)
 {
-	int previous = 0;
-	int current = 1;
-	int sum = 0;
+	long int previous = 0;
+	long int current = 1;
+	long int sum = 0;
 	int i;
 
 	for (i = 1; i <= 50; ++i)
 	{
 		sum = previous + current;
-		printf("%d", sum);
+		printf("%ld", sum);
 
 		if ((i < 50))
 			printf(", ");
