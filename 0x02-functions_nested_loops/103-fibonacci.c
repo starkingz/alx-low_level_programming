@@ -12,6 +12,7 @@ int main(void)
 	int previous = 0;
 	int fn = 0;
 	int i;
+	int sum = 0; /* sum of even-valued fib terms */
 
 	for (i = 0; i < 50; i++)
 	{
@@ -20,17 +21,12 @@ int main(void)
 		if (!(fn >= 4000000))
 		{
 			if (fn % 2 == 0)
-			{
-				printf("%d", fn);
-
-				if (!(i >= 31))
-				printf(", ");
-			}
+				sum += fn;
 
 			previous = current;
 			current = fn;
 		}
 	}
-	printf("\n");
+	printf("%d\n", sum);
 	return (0);
 }
