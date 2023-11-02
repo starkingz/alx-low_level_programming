@@ -17,7 +17,7 @@ int main(void)
 	{
 		fn = prev_fn + curr_fn;
 
-		printf("%f", fn);
+		printf("%.0f", fn);
 
 		if ((i <= 97))
 			printf(", ");
