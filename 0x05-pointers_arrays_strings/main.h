@@ -27,3 +27,11 @@ void swap_int(int *a, int *b);
  * Return: Always 0
  */
 int _strlen(char *s);
+
+/**
+ * _puts = print each char to stdout
+ * @str: char to print
+ *
+ * Return: void
+ */
+void _puts(char *str);
