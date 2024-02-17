@@ -51,3 +51,11 @@ void print_rev(char *s);
  * Return: void
  */
 void rev_string(char *s);
+
+/**
+ * puts2 - print string by even number, starting from the first char
+ * @s: string to print
+ *
+ * Return: void
+ */
+void puts2(char *s);
