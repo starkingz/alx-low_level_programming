@@ -76,3 +76,20 @@ void puts_half(char *str);
  * Return: void
  */
 void print_array(int *a, int n);
+
+/**
+ * _strcpy - copies the string pointed to by src,including terminating null byte
+ * @dest: value to be returned
+ * @src: value to copy
+ *
+ * Return: dest
+ */
+char *_strcpy(char *dest, char *src);
+
+/**
+ * _atoi - convert a string to an integer
+ * @s: string to convert
+ *
+ * Return: int
+ */
+int _atoi(char *s);
