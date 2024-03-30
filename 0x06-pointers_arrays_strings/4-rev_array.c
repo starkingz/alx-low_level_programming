@@ -16,8 +16,6 @@ void reverse_array(int *a, int n)
 
 	ab = (int*) malloc(n * sizeof(int));
 	n--;
-	if (n <= 0)
-		exit(0);
 	for (j = 0; j <= n; j++)
 		ab[j] = a[n - j];
 
